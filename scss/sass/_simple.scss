@@ -1,0 +1,123 @@
+.simple{
+    display: flex;
+    justify-content: space-around;
+}
+.simple__h4{
+    max-width: 445px;
+    width: 100%;
+    height: 56px;
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    
+    letter-spacing: -0.369231px;
+    
+    color: #36536B;
+}
+.simple__one{
+    margin-top: 150px;
+}
+.simple__title{
+    max-width: 445px;
+    width: 100%;
+    height: 56px;
+
+    font-family: 'PublicSans-1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: #6C8294;
+    text-align: start;
+}
+.simple__two{
+    display: flex;
+    
+}
+.simple__none{
+    display: none;
+}
+@media only screen and (max-width:761px) {
+    .simple__two{
+        margin: 0 auto;
+    }
+    .simple{
+        flex-direction: column-reverse;
+    }
+    .simple__none{
+        max-width: 370px;
+        width: 100%;
+        height: 520px;
+
+        display: block;
+    }
+    .simple__block{
+        max-width: 370px;
+        width: 100%;
+        height: 520px;
+    }
+    .simple__h4{
+        text-align: center;
+        margin: 20px auto;
+        margin-top: -100px;
+    }
+    .simple__title{
+        max-width: 576px;
+        width: 100%;
+        height: 56px;
+
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:660px) {
+    .simple__none{
+        max-width: 270px;
+        width: 100%;
+        height: 380px;
+
+        display: block;
+    }
+    .simple__block{
+        max-width: 270px;
+        width: 100%;
+        height: 380px;
+    }
+}
+@media only screen and (max-width:490px) {
+    .simple__none{
+        max-width: 170px;
+        width: 100%;
+        height: 280px;
+
+        display: block;
+    }
+    .simple__block{
+        max-width: 170px;
+        width: 100%;
+        height: 280px;
+    }
+    .simple__h4{
+        max-width: 327px;
+        height: 36px;
+
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 36px;
+        
+        text-align: center;
+        letter-spacing: -0.276923px;
+        
+        color: #36536B;
+        margin: 20px auto;
+        margin-top: -100px;
+        
+    }
+    
+}

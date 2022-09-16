@@ -1,0 +1,123 @@
+.moon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.moon__h6{
+    max-width: 445px;
+    width: 100%;
+    height: 56px;
+    
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+   
+    letter-spacing: -0.369231px;
+    
+    color: #36536B;
+    
+}
+.moon__two{
+    margin-top: 110px;
+}
+.moon__input{
+    max-width: 445px;
+    width: 100%;
+    height:48px ;
+
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+    padding-left: 27px;
+    padding-right: 50px;
+}
+.moon__two form{
+    display: flex;
+}
+.moon__a{
+    max-width: 173px;
+    width: 100%;
+    height: 35px;
+
+    font-family: 'PublicSans-2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    
+    letter-spacing: -0.115385px;
+    
+    color: #FBFCFE;
+    padding: 0px 70px;
+    text-align: center;
+    padding-top: 15px;
+    
+
+    background: #BA4270;
+    border-radius: 24px;
+
+    margin-left: -50px;
+   
+    &:active{
+        opacity:0.7 ;
+    }
+}
+@media only screen  and (max-width:730px){
+    .moon{
+        flex-direction: column;
+    }
+    .moon__h6{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .moon form{
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .moon__input{
+        max-width: 200px;
+
+        // margin: 0 auto;
+    }
+    .moon__a{
+        margin-left: -100px;
+    }
+    
+}
+@media only screen and (max-width:480px){
+    .moon__h6{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .moon form{
+        flex-direction: column;
+    }
+    .moon__a{
+        max-width: 130px;
+
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+    .moon__input{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -80px;
+    }
+    
+}
+@media only screen and (max-width:560px) {
+    .finish{
+        max-width: 100%;
+        height: 353px;
+    }
+    .finish__ul{
+        flex-direction: column;
+    }
+}
